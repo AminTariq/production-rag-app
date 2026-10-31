@@ -33,3 +33,13 @@ $ cp .env.example .env
 ```
 
 Set your enviroment variables in the `.env` file.
+
+## Run the FastAPI server
+
+```bash
+$ uvicorn main:app --reload --host 0.0.0.0 --port 4000
+```
+
+## POSTMAN Collection
+
+Download the POSTMAN collection from [/assets/production-rag-app.postman_collection.json](/assets/production-rag-app.postman_collection.json)
