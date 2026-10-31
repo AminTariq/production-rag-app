@@ -4,14 +4,14 @@ This is a production grade implementation of the RAG model for question answerin
 
 ## Requirements
 
-- Python 3.8 or later
+- Python 3.12 or later
 
 #### Install Python using MiniConda
 
 1) Download and Install MiniConda from [here](https://www.anaconda.com/docs/getting-started/concepts/anaconda-or-miniconda#quick-command-line-install)
 2) Create a new enviroment using the following command:
 ```bash
-$ conda create -n production-rag-app python=3.8
+$ conda create -n production-rag-app python=3.12
 ```
 3) Activate the environment:
 ```bash
