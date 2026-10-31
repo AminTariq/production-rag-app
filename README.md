@@ -17,3 +17,19 @@ $ conda create -n production-rag-app python=3.12
 ```bash
 $ conda activate production-rag-app
 ```
+
+## Installation
+
+### Install the required packages
+
+```bash
+$ pip install -r requirements.txt
+```
+
+### Setup the environment variables 
+
+```bash
+$ cp .env.example .env
+```
+
+Set your enviroment variables in the `.env` file.
