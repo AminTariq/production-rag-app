@@ -32,7 +32,13 @@ $ pip install -r requirements.txt
 $ cp .env.example .env
 ```
 
-Set your enviroment variables in the `.env` file.
+Set your enviroment variables in the `.env` file. 
+
+## Run Docker Compose Services
+
+```bash
+$ sudo docker compose up -d
+```
 
 ## Run the FastAPI server
 
